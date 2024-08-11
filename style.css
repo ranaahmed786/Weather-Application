@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    font-family: "Merriweather", serif;
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    backdrop-filter:blur(30px);
+    border: 0.5px solid  black;
+}
+.search-box{
+    height: 3em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.search-box input{
+    position: absolute;
+    background-color: transparent;
+    font-size:18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    height: 100%;
+    width:80%;
+    padding:0px 30px
+}
+.search-box input::placeholder{
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+.search-box button{
+    position:absolute;
+    right: 0px;
+    width:30px;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    background-color: transparent;
+}
+.search-box i{
+    position: absolute;
+    width: 30px;
+    border: none;
+    outline: none;
+    font-size: 28px;
+}
+.weather-box{
+    text-align: center;
+    margin: 10px 0px;
+}
+.weather-box img{
+    height: 10em;
+}
+.weather .temprature{
+    font-size: 4em;
+}
+.weather .description{
+    font-size: 20px;
+}
+.weather-details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.humidity,.wind-speed{
+    display: flex;
+    height:3.5em;
+}
+.w-icon i{
+    font-size: 60px;
+    margin: 0px 5px;
+}
+.weather-details .details{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
