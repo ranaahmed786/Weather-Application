@@ -103,3 +103,8 @@ body{
     flex-direction: column;
     justify-content: space-around;
 }
+@media screen and (max-width:405px){
+    .container{
+        border: none;
+    }
+}
