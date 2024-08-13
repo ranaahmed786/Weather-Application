@@ -11,7 +11,7 @@ A simple weather application that allows users to check the weather conditions i
 - [Screenshots](#screenshots)
 
 ## Demo
-[Live Demo](#https://ranaahmed786.github.io/Weather-Application/) 
+[Live Demo]https://ranaahmed786.github.io/Weather-Application/
 
 ## Features
 - Search for current weather conditions by city name.
@@ -40,5 +40,5 @@ A simple weather application that allows users to check the weather conditions i
 1. Enter the name of a city in the input box.
 2. Press the search button or hit Enter to fetch and display the weather information.
 
-## Screenshots
-![Weather App Screenshot]![image](https://github.com/user-attachments/assets/fa123284-06c3-4073-8f83-ea023b81c771)
+## Screenshot
+[image](https://github.com/user-attachments/assets/fa123284-06c3-4073-8f83-ea023b81c771)
