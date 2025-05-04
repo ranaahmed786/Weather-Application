@@ -41,4 +41,5 @@ A simple weather application that allows users to check the weather conditions i
 2. Press the search button or hit Enter to fetch and display the weather information.
 
 ## Screenshot
-[image](https://github.com/user-attachments/assets/fa123284-06c3-4073-8f83-ea023b81c771)
+[image](![image](https://github.com/user-attachments/assets/2d10d6f9-f164-4bdc-b72b-47f5fb179983)
+)
